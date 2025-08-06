@@ -47,7 +47,9 @@ The following optional features were implemented to enhance the application:
 ## Repository Structure 
 
 task-tracker/
-├── backend/                  
+
+├── backend/    
+              
 │   ├── config/               # Database connection and jwt setup
 │   ├── controllers/          # Route handler logic
 │   ├── middlewares/          # Custom middlewares (e.g. error handling, auth)
@@ -92,8 +94,11 @@ npm install
 - Add the following code and use your specific connection string and jwt secret key.
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret_key
+
 Start backend server:
 
 - Run the following command in terminal
@@ -132,7 +137,7 @@ npm start
 ![Homepage](./screenshots/login.png)
 
 ### 🔹 Tasks Dashboard
-![Tasks Dashboard](./screenshots/task.png)
+![Tasks Dashboard](./screenshots/taskS.png)
 
 ### 🔹 Task List with Pagination
 ![Task List with Pagnination](./screenshots/task_pagination.png)
