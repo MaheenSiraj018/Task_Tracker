@@ -90,17 +90,17 @@ npm start
 ---
 
 ## User Flow
-- Register a new user from signup
+Register a new user from signup
 
-- Login via login
+Login via login
 
-- Redirected to your Task Dashboard
+Redirected to your Task Dashboard
 
-- Create tasks with title, description, due date
+Create tasks with title, description, due date
 
-- Tasks appears; you can edit, delete or mark them
+Tasks appears; you can edit, delete or mark them
 
-- Logout via the top button
+Logout via the top button
 
 
 ## Application Screenshots
