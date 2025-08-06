@@ -112,7 +112,7 @@ Logout via the top button
 ![Homepage](./screenshots/login.png)
 
 ### 🔹 Tasks Dashboard
-![Tasks Dashboard](./screenshots/taskS.png)
+![Tasks Dashboard](./screenshots/tasks.png)
 
 ### 🔹 Task List with Pagination
 ![Task List with Pagnination](./screenshots/task_pagination.png)
