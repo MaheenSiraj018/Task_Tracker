@@ -1,10 +1,10 @@
-# 📝 Task Tracker App
+# Task Tracker App
 
 A **MERN Stack-based Task Tracker** web application designed to help users manage their daily tasks efficiently. This app allows users to register, login, add tasks, update them, delete tasks, and track overdue ones. Tasks are categorized by status and include due dates for productivity tracking.
 
 ---
 
-## 📌 Features
+## Features
 
 - User Authentication (Register/Login)
 - Add, Edit, Delete tasks
@@ -16,16 +16,16 @@ A **MERN Stack-based Task Tracker** web application designed to help users manag
 
 ---
 
-## 🌟 Bonus Features Implemented
+##  Bonus Features Implemented
 
 The following optional features were implemented to enhance the application:
 
-- ✅ **Pagination** for task list with intuitive navigation
-- ✅ **Logout button** with proper session clearing
+- **Pagination** for task list with intuitive navigation
+- **Logout button** with proper session clearing
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend:
 - React.js
@@ -41,6 +41,8 @@ The following optional features were implemented to enhance the application:
 - bcrypt for password hashing
 
 ---
+<details> 
+<summary>
 
 ## Repository Structure 
 
@@ -68,22 +70,21 @@ task-tracker/
 ├── .gitignore                # Ignored files/folders
 ├── README.md                 # Project documentation
 
+</details>
 
-
-## 🚀 Getting Started
+##  Getting Started
 
 Follow the steps below to run the application locally:
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Node.js and npm installed
 - MongoDB installed and running locally or connected via cloud (MongoDB Atlas)
 
 ---
 
-### 🔧 Backend Setup
+###  Backend Setup
 
-```bash
 cd backend
 npm install
 
@@ -96,13 +97,12 @@ JWT_SECRET=your_jwt_secret_key
 Start backend server:
 
 - Run the following command in terminal
-```bash
 node server.js
+
 
 ---
 
 ### Frontend Setup
-```bash
 cd frontend
 npm install
 npm start
@@ -123,7 +123,7 @@ npm start
 - Logout via the top button
 
 
-## 🖼️ Application Screenshots
+## Application Screenshots
 
 ### 🔹 Homepage
 ![Homepage](./screenshots/signup.png)
@@ -136,6 +136,9 @@ npm start
 
 ### 🔹 Task List with Pagination
 ![Task List with Pagnination](./screenshots/task_pagination.png)
+
+## Submitted By
+Maheen Siraj
 
 
 
