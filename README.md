@@ -44,35 +44,10 @@ The following optional features were implemented to enhance the application:
 <details> 
 <summary>
 
-## Repository Structure 
+### Repo Structure
+![Repo Structure](./screenshots/repo.png)
 
-task-tracker/
 
-├── backend/    
-              
-│   ├── config/               # Database connection and jwt setup
-│   ├── controllers/          # Route handler logic
-│   ├── middlewares/          # Custom middlewares (e.g. error handling, auth)
-│   ├── models/               # Mongoose models
-│   ├── routes/               # API route definitions
-│   ├── utils/                # Utility functions
-│   ├── .env                  # Environment variables (not pushed to GitHub)
-│   ├── server.js             # Entry point of backend
-│   └── package.json          # Backend dependencies
-│
-├── frontend/                 # React frontend
-│   ├── public/               # Public assets
-│   ├── src/
-│   │   ├── components/       # Reusable components
-│   │   ├── pages/            # Page-level components
-│   │   ├── App.js            # Main app component
-│   │   └── index.js          # React entry point
-│   └── package.json          # Frontend dependencies
-│
-├── .gitignore                # Ignored files/folders
-├── README.md                 # Project documentation
-
-</details>
 
 ##  Getting Started
 
